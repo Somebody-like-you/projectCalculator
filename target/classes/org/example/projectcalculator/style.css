@@ -1,0 +1,43 @@
+.root {
+    -fx-background-color: #252525;
+}
+
+
+
+#btnNumeric {
+    -fx-background-color: #1E1E1E;
+    -fx-text-fill: white;
+    -fx-border-color: #333;
+    -fx-border-width: 1px;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-effect: none;
+    -fx-padding: 10px 18px;
+    -fx-cursor: hand;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+
+#btnNumeric:hover {
+    -fx-background-color: #292929;
+    -fx-border-color: #555;
+}
+
+
+#btnNumeric:pressed {
+    -fx-background-color: #111;
+    -fx-border-color: #666;
+}
+
+
+.input {
+    -fx-border-width: 0;
+}
+
+
+#input:focused {
+    -fx-border-color: #4A90E2;
+    -fx-background-color: #333;
+}
